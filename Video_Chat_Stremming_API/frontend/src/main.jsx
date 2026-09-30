@@ -1,10 +1,13 @@
 import App from "./App"
 import { createRoot } from "react-dom/client"
-import { BrowserRouter, Routes, Route } from "react-router"
+import { BrowserRouter } from "react-router"
+import { AuthProvider } from "./context"
 
 createRoot(document.getElementById("root"))
     .render(
         <BrowserRouter>
-            <App/>
+            <AuthProvider>
+                <App />
+            </AuthProvider>
         </BrowserRouter>
     );

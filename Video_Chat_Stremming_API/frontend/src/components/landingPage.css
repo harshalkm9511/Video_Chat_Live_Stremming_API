@@ -1,0 +1,16 @@
+.start{
+    height:100px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(174, 174, 172);
+    box-shadow: 0px 0px 50px  rgba(0, 0, 0, 0.646);
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    
+    margin: 200px auto;
+}
+

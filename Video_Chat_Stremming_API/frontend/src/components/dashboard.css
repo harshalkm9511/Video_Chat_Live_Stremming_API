@@ -1,0 +1,18 @@
+.startVideo{
+    height: 200px;
+    width: 300px;
+    background-color: cadetblue;
+
+     display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+    margin: 200px auto;
+}
+
+.user-crediential{
+    position: absolute;
+    right: 10%;
+    top: 10px;
+}
